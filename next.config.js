@@ -4,6 +4,8 @@ const nextConfig = {
     serverActions: {
       bodySizeLimit: '200mb'
     }
-  }
+  },
+  output: 'export',
 }
+
 module.exports = nextConfig
